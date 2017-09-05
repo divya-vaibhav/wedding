@@ -261,20 +261,21 @@ body {
     position: fixed; 
     top: -50%; 
     left: -50%; 
-    width: 200%; 
-    height: 200%;
+    width: 200vw; 
+    height: 200vh;
+    background: #050505;
 }
 #bg-image img {
     position: absolute; 
-    top: 0; 
-    left: 10%; 
+    top: 10%; 
+    left: 0%; 
     right: 0; 
     bottom: 0; 
     margin: auto; 
-    max-width: 100%;
+    max-height: 50%;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 480px)  and (max-height: 480px){
     #bg-image {
         position: fixed; 
         top: -50%; 
@@ -291,6 +292,27 @@ body {
         margin: auto; 
         min-width: 50%;
         min-height: 50%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width: 480px) and (min-height: 481px){
+    #bg-image {
+        position: fixed; 
+        top: -50%; 
+        left: -50%; 
+        width: 200%; 
+        height: 200%;
+    }
+    #bg-image img {
+        position: absolute; 
+        top: 0%; 
+        left: 0%; 
+        right: 0; 
+        bottom: 0; 
+        margin: auto; 
+        max-height: 50%;
     }
 }
 
@@ -311,6 +333,8 @@ body {
         margin: auto; 
         min-width: 50%;
         min-height: 50%;
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
@@ -324,13 +348,15 @@ body {
     }
     #bg-image img {
         position: absolute; 
-        top: 25%; 
+        top: 30%; 
         left: 0; 
         right: 0; 
         bottom: 10%; 
         margin: auto; 
         min-width: 50%;
         min-height: 50%;
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
@@ -344,13 +370,15 @@ body {
     }
     #bg-image img {
         position: absolute; 
-        top: 2%; 
+        top: 5%; 
         left: 0; 
         right: 0; 
         bottom: 0; 
         margin: auto; 
         min-width: 50%;
         min-height: 50%;
+        max-width: 100%;
+        max-height: 100%;
     }
 }
 
