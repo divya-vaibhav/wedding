@@ -1,1 +1,1 @@
-IDRViewer.config = {"pagecount":2,"title":"PowerPoint Presentation","author":"Vaibhav Unhelkar","fileName":"wedding_program_divya_vaibhav.pdf","bounds":[[1463,2068],[1463,2068]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
+IDRViewer.config = {"pagecount":2,"title":"Mumbai Program","author":"Vaibhav Unhelkar","fileName":"wedding_program_divya_vaibhav.pdf","bounds":[[1463,2068],[1463,2068]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
